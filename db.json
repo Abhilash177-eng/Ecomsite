@@ -1,0 +1,312 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Signup": [
+    {
+      "name": "Abhilash",
+      "email": "abhil9410@gmail.com",
+      "password": "12345",
+      "role": "super-admin",
+      "id": 1
+    },
+    {
+      "name": "R9",
+      "email": "ronaldo9@gmail.com",
+      "password": "9801",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "name": "Steven Gerrad",
+      "email": "steveg@gmail.com",
+      "password": "stevexyz",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "name": "str",
+      "email": "str@gmail.com",
+      "password": "str",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "name": "Yogesh",
+      "email": "yogesh@gmail.com",
+      "password": "123",
+      "role": "super-admin",
+      "id": 5
+    },
+    {
+      "name": "jeeva",
+      "email": "jeva@gmail.com",
+      "password": "jevaxyq",
+      "id": 6
+    },
+    {
+      "name": "Prakash",
+      "email": "prakash@gmail.com",
+      "password": "xtd",
+      "id": 7
+    },
+    {
+      "name": "admin",
+      "email": "as@gmail.com",
+      "password": "uhsba",
+      "id": 8
+    },
+    {
+      "name": "superadmin",
+      "email": "superadmin@gmail.com",
+      "password": "1234e",
+      "id": 9
+    }
+  ],
+  "Homemobile": [
+    {
+      "name": "iphone SE",
+      "storage": "64Gb Rom",
+      "price": "27,999",
+      "baseurl": "https://rukminim1.flixcart.com/image/416/416/k9loccw0/mobile/p/z/q/apple-iphone-se-mxd02hn-a-original-imafrcpjfehbbqgb.jpeg?q=70"
+    },
+    {
+      "name": "poco c31",
+      "storage": "64Gb Rom",
+      "price": "9,499",
+      "baseurl": "https://rukminim1.flixcart.com/image/416/416/ku4ezrk0/mobile/b/o/m/c31-mzb0a0min-poco-original-imag7bzqxekkpkrv.jpeg?q=70"
+    },
+    {
+      "name": "Realme Narzo",
+      "storage": "64Gb Rom",
+      "price": "11,499",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/q/a/c/narzo-50a-rmx3430-realme-original-imag75kybaer8scz.jpeg?q=70"
+    },
+    {
+      "name": "Redmi 9i",
+      "storage": "64Gb Rom",
+      "price": "8,799",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kesv0y80/mobile/h/p/q/redmi-9i-mzb0814in-original-imafvehkgzghyqtp.jpeg?q=70"
+    },
+    {
+      "name": "Motorola e40",
+      "storage": "128Gb Rom",
+      "price": "9,999",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kulk9zk0/mobile/5/t/f/e40-parl0010in-motorola-original-imag7zz7rzhrkrk2.jpeg?q=70"
+    },
+    {
+      "name": "infinix smart 5",
+      "storage": "32Gb Rom",
+      "price": "7,199",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kkyc9zk0/mobile/9/9/b/smart-5-x688c-infinix-original-imagy6wkafwrgj9z.jpeg?q=70"
+    }
+  ],
+  "HomeTv": [
+    {
+      "name": "Mi 4a pro 80cm",
+      "inches": "32 inches",
+      "price": "15,999",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kq6yefk0/television/n/w/v/l32m5-al-mi-original-imag4967mvqvpvgp.jpeg?q=70"
+    },
+    {
+      "name": "One plus y",
+      "inches": "43 inches",
+      "price": "26,999",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kqidx8w0/television/o/h/9/43fa0a00-oneplus-original-imag4gy9perzvrdv.jpeg?q=70"
+    },
+    {
+      "name": "realme NEO",
+      "inches": "32 inches",
+      "price": "13,999",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kuvkcy80/television/y/k/z/rmv2101-realme-original-imag7wak2fctphqy.jpeg?q=70"
+    },
+    {
+      "name": "ifFaclcon",
+      "inches": "55 inches",
+      "price": "32,999",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/knni7ww0/television/v/f/f/55k61-55k61-iffalcon-original-imag2ae3pn4e8gkt.jpeg?q=70"
+    },
+    {
+      "name": "Samsung 80cm",
+      "inches": "32 inches",
+      "price": "17,999",
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kbs9k7k0/television/c/j/3/samsung-ua32t4340akxxl-original-imaft25qdysfsq7k.jpeg?q=70"
+    },
+    {
+      "name": "Coocaa 80cm",
+      "inches": "32 inches",
+      "price": "10,499",
+      "baseurl": "https://rukminim1.flixcart.com/image/300/300/ksgehzk0/television/5/k/i/32s3u-pro-32s3u-pro-coocaa-original-imag6ygbqrnurwfg.jpeg?q=90"
+    }
+  ],
+  "HomeWatches": [
+    {
+      "name": "Fossil",
+      "price": "9,495",
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/k4hcjgw0pkrrdj/watch-refurbished/j/y/s/c-fs5447-b-fossil-original-imafkzzckwr6vwym.jpeg?q=50"
+    },
+    {
+      "name": "Sonata Volto",
+      "price": "675",
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/jezzukw0/watch/2/t/c/77085pp03-sonata-original-imaf3kgx8ft5srkq.jpeg?q=50"
+    },
+    {
+      "name": "hala",
+      "price": "235",
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/ktuewsw0/watch/d/q/u/1-new-gen-black-s-shock-hala-men-original-imag73gu5wy5hp5h.jpeg?q=50"
+    },
+    {
+      "name": "Fastrack",
+      "price": "2195",
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/k4rcmfk0pkrrdj/watch-refurbished/7/c/g/c-38045pp03-fastrack-original-imaf8qx7vzuxrxr8.jpeg?q=50"
+    },
+    {
+      "name": "Titan",
+      "price": "2,276",
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/k4rcmfk0pkrrdj/watch-refurbished/3/g/h/c-1771sl02-titan-original-imafdcjfxvqjmkyc.jpeg?q=50"
+    },
+    {
+      "name": "Casio",
+      "price": "2,395",
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/kdlzte80/watch/k/n/q/a551-casio-original-imafuheesmupewvr.jpeg?q=50"
+    }
+  ],
+  "mobileComponent": [
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/ktbu6q80/mobile/f/s/e/8s-5g-rmx3381-realme-original-imag6zhgra57dtqe.jpeg?q=70",
+      "name": "Realme 8s",
+      "ram": "8 64",
+      "price": "19,999",
+      "id": 1
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kqqykcw0/mobile/p/y/u/galaxy-f22-sm-e225fzkhins-samsung-original-imag4z99fagskjxd.jpeg?q=70",
+      "name": "galaxy f22",
+      "ram": "6 128",
+      "price": "14,999",
+      "id": 2
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/knoxnrk0/mobile/s/d/d/g40-fusion-panv0002in-panv0006in-panv0010in-motorola-original-imag2aqcxrhhuwfh.jpeg?q=70",
+      "name": "Moto G40 Fussion",
+      "ram": "6 128",
+      "price": "15,499",
+      "id": 3
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kr2e3680/mobile/4/1/p/reno6-5g-cph2251-oppo-original-imag4xp8y9647cgg.jpeg?q=70",
+      "name": "oppo Reno6",
+      "ram": "8 128",
+      "price": "29,990",
+      "id": 4
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kq9ta4w0/mobile/w/m/a/v21e-pd2102-vivo-original-imag4bcnur8gmmfj.jpeg?q=70",
+      "name": "Vivo v21e",
+      "ram": "8 128",
+      "price": "27,990",
+      "id": 5
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/kflftzk0/mobile/h/q/u/google-pixel-4a-ga02099-in-original-imafwyzmnfxzmv5q.jpeg?q=70",
+      "name": "pixel 4a",
+      "ram": "6 128",
+      "price": "27,999",
+      "id": 6
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/f/c/g/iphone-13-mlpf3hn-a-apple-original-imag6vzzzfa5ndzm.jpeg?q=70",
+      "name": "iphone 13",
+      "ram": "8 256",
+      "price": "100,000",
+      "id": 7
+    },
+    {
+      "baseurl": "https://m.media-amazon.com/images/I/61TnX0PmqES._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "oneplus nord",
+      "ram": "8 128",
+      "vary": "",
+      "price": "27,000",
+      "id": 8
+    }
+  ],
+  "tshirt": [
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/k4vmxzk0/t-shirt/k/x/m/xl-16-panel-mustard-uzee-original-imafnzyyxzwdcn9m.jpeg?q=50",
+      "name": "Van huesen",
+      "size": "S M L XL XXL",
+      "price": "500",
+      "id": 1
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/k3yrte80/t-shirt/p/q/h/xl-i681-705-pl-u-s-polo-assn-original-imafmzcv5e53zxmh.jpeg?q=50",
+      "name": "US polo",
+      "size": "S M L XL XXL",
+      "price": "700",
+      "id": 2
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/ktx9si80/t-shirt/y/p/h/m-vfkcaatbt99301-van-heuen-flex-original-imag75m6hdyaumrk.jpeg?q=50",
+      "name": "Helmont",
+      "size": "S M L XL XXL",
+      "price": "800",
+      "id": 3
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/kfoapow0-0/t-shirt/3/w/y/l-rc24solidblue-roden-original-imafw2gxasvgprpj.jpeg?q=50",
+      "name": "Roden",
+      "size": "S M L XL XXL",
+      "price": "400",
+      "id": 4
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/krp94sw0/t-shirt/f/w/k/l-tnvhdfulabstract1-tripr-original-imafbdarnwhfh7uu.jpeg?q=50",
+      "name": "Tripr",
+      "size": "S M L XL XXL",
+      "price": "800",
+      "id": 5
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/kactpjk0/t-shirt/x/6/w/xl-printed-full-light-grey-uzee-original-imafry6h2sbgfwdh.jpeg?q=50",
+      "name": "uzee",
+      "size": "S M L XL XXL",
+      "price": "250",
+      "id": 6
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/ku2zjww0/t-shirt/n/w/1/xl-lh-t-fs-121-black-size-xl-london-hills-original-imag7a9kfdhpguzq.jpeg?q=50",
+      "name": "London Hills",
+      "ram": "",
+      "vary": "S M L XL XXL",
+      "price": "379",
+      "id": 7
+    },
+    {
+      "baseurl": "https://rukminim1.flixcart.com/image/580/696/kcc9q4w0/t-shirt/z/f/k/m-mandplctee-black-urbano-fashion-original-imafthckgecasygh.jpeg?q=50",
+      "name": "urbano fashion",
+      "ram": "",
+      "vary": "S M XL XXL",
+      "price": "500",
+      "id": 8
+    }
+  ]
+}

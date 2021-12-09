@@ -1,0 +1,327 @@
+.cointainer{
+    display: flex;
+    width: 45%;
+    height: 65%;
+    margin-left:28%;
+    background-color:#fff;
+    position: absolute;
+    margin-top: 7%;
+}
+
+.content{
+    background-color:#2874f0;
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.loginget{
+    margin-top:20%;
+}
+
+
+.loginclass{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    margin-left: 4%;
+}
+.logincont{
+    font-size: 18px;
+    line-height: 150%;
+    color: #dbdbdb;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    margin-top:4%;
+    margin-left: 4%;
+}
+
+.inputclass{
+    padding: 8px 10px 10px 0;
+    width: 50%;
+    color: #000;
+    font-size: inherit;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 2%;
+    line-height: 1.4;
+    position:absolute;
+    margin: 7%;
+}
+
+.inputclass:focus{
+    outline: none;
+    border-bottom: 3px solid skyblue;
+}
+
+.loginget:focus{
+    outline: none;
+    border-bottom: 3px solid skyblue;
+}
+
+.buttonclass{
+    width: 51%;
+    height: 10%;
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 6%;
+    background-color:#fb641b;
+    font-family: Roboto,Arial,sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+}
+
+.loginget{
+    margin-top:20%;
+    padding: 8px 10px 10px 0;
+    width: 50%;
+    color: #000;
+    font-size: inherit;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 7.7%;
+    line-height: 1.4;
+    position:absolute;
+}
+
+.sigupurl{
+    margin-top:55%;
+    position:absolute;
+    margin-left:6%;
+    text-decoration:none;
+    color: #2874f0;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.imgclass{
+    background-position-x: center;
+    background-position-y: 85%;
+    margin-top:60%;
+}
+
+@media only screen and (max-width: 999px) {
+
+    .cointainer{
+        display: flex;
+        width: 91%;
+        height: 65%;
+        margin-left:5%;
+        background-color:#fff;
+        margin-top: 18%;
+    }
+
+    .hfg{
+        background-color:white;
+
+    }
+
+    .loginget{
+        margin-top:29%;
+        padding: 32px 10px 10px 0;
+        width: 50%;
+        color: #000;
+        font-size: inherit;
+        background: #fff;
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        margin-left: 6%;
+        line-height: 1.4;
+        position:absolute;
+    }
+    
+    .content{
+        background-color:#2874f0;
+        width: 48%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .loginclass{
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+        font-family: Roboto,Arial,sans-serif;
+        letter-spacing: 0;
+        margin-left: 4%;
+    }
+    .logincont{
+        font-size: 18px;
+        line-height: 150%;
+        color: #dbdbdb;
+        font-family: Roboto,Arial,sans-serif;
+        letter-spacing: 0;
+        margin-top:4%;
+        margin-left: 4%;
+    }
+    
+    .inputclass{
+        padding: 8px 10px 10px 0;
+        width: 50%;
+        color: #000;
+        font-size: inherit;
+        background: #fff;
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        margin-left: 2%;
+        line-height: 1.4;
+        position:absolute;
+        margin: 7%;
+    }
+    
+    .inputclass:focus{
+        outline: none;
+        border-bottom: 3px solid skyblue;
+    }
+    
+    .buttonclass{
+        width: 51%;
+        height: 10%;
+        margin-top: 56%;
+        position: absolute;
+        margin-left: 4%;
+        background-color:#fb641b;
+        font-family: Roboto,Arial,sans-serif;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        border: none;
+    }
+    
+    .sigupurl{
+        margin-top:83%;
+        position:absolute;
+        margin-left:6%;
+        text-decoration:none;
+        color: #2874f0;
+        font-weight: 500;
+        font-family: Roboto,Arial,sans-serif;
+    }
+
+    .imgclass{
+        margin-top:60%;
+        width:170px;
+        height: 170px;
+
+    }
+
+
+}
+
+@media only screen and (min-width:1000px) and (max-width:1300px) {
+
+    .cointainer{
+        display: flex;
+        width: 91%;
+        height: 65%;
+        margin-left:5%;
+        background-color:#fff;
+        margin-top: 18%;
+    }
+
+    .hfg{
+        background-color:white;
+
+    }
+
+    .loginget{
+        margin-top:29%;
+        padding: 32px 10px 10px 0;
+        width: 50%;
+        color: #000;
+        font-size: inherit;
+        background: #fff;
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        margin-left: 6%;
+        line-height: 1.4;
+        position:absolute;
+    }
+    
+    .content{
+        background-color:#2874f0;
+        width: 48%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .loginclass{
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+        font-family: Roboto,Arial,sans-serif;
+        letter-spacing: 0;
+        margin-left: 4%;
+    }
+    .logincont{
+        font-size: 18px;
+        line-height: 150%;
+        color: #dbdbdb;
+        font-family: Roboto,Arial,sans-serif;
+        letter-spacing: 0;
+        margin-top:4%;
+        margin-left: 4%;
+    }
+    
+    .inputclass{
+        padding: 8px 10px 10px 0;
+        width: 50%;
+        color: #000;
+        font-size: inherit;
+        background: #fff;
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        margin-left: 2%;
+        line-height: 1.4;
+        position:absolute;
+        margin: 7%;
+    }
+    
+    .inputclass:focus{
+        outline: none;
+        border-bottom: 3px solid skyblue;
+    }
+    
+    .buttonclass{
+        width: 51%;
+        height: 10%;
+        margin-top: 56%;
+        position: absolute;
+        margin-left: 4%;
+        background-color:#fb641b;
+        font-family: Roboto,Arial,sans-serif;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        border: none;
+    }
+    
+    .sigupurl{
+        margin-top:83%;
+        position:absolute;
+        margin-left:6%;
+        text-decoration:none;
+        color: #2874f0;
+        font-weight: 500;
+        font-family: Roboto,Arial,sans-serif;
+    }
+
+    .imgclass{
+        margin-top:60%;
+        width:170px;
+        height: 170px;
+
+    }
+
+
+
+
+
+
+}

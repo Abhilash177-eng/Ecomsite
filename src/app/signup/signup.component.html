@@ -1,0 +1,17 @@
+
+<div class="cointainer"> 
+    <div class="content">
+    <p class="loginclass"> Looks like you're new here! </p>
+    <p class="logincont"> Sign up with email to get started   </p>
+    <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png" class="imgclass" style="width:200px;height:auto;">
+    </div>
+   <div>
+    <form [formGroup]="userDetail" (ngSubmit)="validateData()">
+        <input autocomplete="off" formControlName="name" type="text" class="inputclass" value="" placeholder="Enter your name">
+        <input autocomplete="off" formControlName="email"  type="text" class="secinput" value="" placeholder="Enter emailid">
+        <input autocomplete="off" formControlName="password"   type="text" class="thirdinput" value="" placeholder="Enter password">
+        <button class="buttonclass" > Signup </button>
+        <a routerLink="/login" class="sigupurl"> Exsisting user? Login </a>
+    </form>
+    </div>
+</div>

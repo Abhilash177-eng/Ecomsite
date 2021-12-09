@@ -1,0 +1,31 @@
+
+<div class="cointainer"> 
+    <div class="content">
+      <p class="loginclass"> Flipkart inventory </p>
+       <p class="logincont"> Keep pushing the product </p>
+      <div style="width:200px;height:100px;">
+        <img src="https://w7.pngwing.com/pngs/14/844/png-transparent-factory-and-workers-illustration-warehouse-e-commerce-price-creative-design-factory-green-warehouse-map-miscellaneous-angle-building.png" style="background-position-x: center;
+       background-position-y: 85%;margin-top:68%;width:200px;height:auto;margin-left:10%;">
+      </div>
+    </div>
+
+    <div>
+        <form [formGroup]="userDetail" (ngSubmit)="validateData()">
+         <input [(ngModel)]="name" formControlName="name" autocomplete="off"  type="text" class="inputclass" value="" placeholder="Enter Product name">
+         <select (change)="changeContent()" id="type" style="margin-top:20%;position:absolute;margin-left:7%;width:50%;outline:none;border:none;">
+            <option value="mobile"> mobile  </option>
+            <option value="tshirt"> tshirt  </option>
+            <option value="watch"> watch </option>
+            <option value="television">television </option>
+         </select>
+
+         <input  formControlName="ram" *ngIf="showSpecificType=='mobile'" type="text" placeholder="ram and rom" class="inputclass" value="" style="margin-top:26%;position:absolute;margin-left:7%;width:50%;">
+         <input [(ngModel)]="vary" formControlName="vary" *ngIf="showSpecificType=='tshirt'" type="text" placeholder="size" class="inputclass" value="" style="margin-top:26%;position:absolute;margin-left:7%;width:50%;">
+         <input [(ngModel)]="price" formControlName="price" type="text" placeholder="price" class="inputclass" value="" style="margin-top:33%;position:absolute;margin-left:7%;width:50%;">
+         <input [(ngModel)]="baseurl" formControlName="baseurl" type="text" placeholder="imageurl" class="inputclass" value="" style="margin-top:40%;position:absolute;margin-left:7%;width:50%;">
+         <button class="buttonclass" style="margin-top:50%;position:absolute;"> Add Product </button>
+        </form>
+    </div>
+ 
+</div>
+

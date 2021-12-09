@@ -1,0 +1,26 @@
+<div class="jks sticky-top">
+  <div>
+    <img src=" https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png" class="logo">
+  </div>
+ <div>
+  <input [(ngModel)]="searchQuery"  (keyup)="search($event)" type="text" value="" class="searchbox" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more">
+ </div>
+
+ 
+<div class="coreBox">  
+   <div class="coreimg">
+      <img [src]="data.baseurl" style="width:150px;height:auto;">
+   </div>
+</div>
+
+<div class="coreContent">
+    <div>
+       <span> {{data.name}} </span> 
+    </div>
+    <div>
+      <span>  {{data.ram}} </span>
+    </div>
+    <div>
+       <span> {{data.price}} </span>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="jks sticky-top">
+    <div>
+      <img src=" https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png" class="logo">
+    </div>
+   <div>
+    <input [(ngModel)]="searchQuery"  (keyup)="search($event)" type="text" value="" class="searchbox" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more">
+   </div>
+</div>
+
+<div  class="contactList">
+    <div class="iop" *ngFor="let eachoption of Hmobiles; let j = index">
+      <div style="width:100px;height:100px;margin-left:20%;">
+        <span (click)="viewDesc(eachoption)"> <img [src]="eachoption.baseurl" style="width:100px;height:auto;"></span>
+      </div>
+      <div style="margin-top:-3%;">
+          <div>
+             <span> {{ eachoption.name }}</span>
+          </div>
+          <div>
+            <span style=""> {{ eachoption.ram }}</span>
+          </div>
+         <div>
+           <span> {{ eachoption.price }}</span>
+         </div>
+      </div>
+    </div>
+  
+</div>
+
